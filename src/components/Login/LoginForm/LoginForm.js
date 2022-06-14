@@ -26,7 +26,7 @@ const LoginForm = () => {
 
   //Side effects
   useEffect(() => {
-    if (user !== null) navigate("/profile");
+    if (user !== null) navigate("/translate");
   }, [user, navigate]); // rerender when user changes
 
   //Event handlers
