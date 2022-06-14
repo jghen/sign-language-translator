@@ -1,0 +1,38 @@
+.Profile-Page {
+  min-height: calc(100vh - var(--nav-height));
+  min-width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-primary-blue);
+  color: var(--text-white);
+}
+
+.Profile-Nav, .Profile-Main {
+  background-color: var(--bg-primary-blue);
+  color: var(--text-white);
+}
+
+.Profile-Header {
+  width: 100%;
+  height: var(--header-height);
+  background-color: var(--bg-primary-blue);
+  color: var(--text-white);
+}
+.h4-header {
+  margin: 2rem auto 1rem;
+  font-weight: 600;
+  color: var(--text-dark-dimmed);
+}
+
+.Profile-Main {
+  width: calc(100% + var(--container-padding-x) * 2);
+  height: calc(100vh - 4rem - var(--header-height) - 4rem);
+  flex-direction: column;
+  background-color: var(--bg-secondary-white);
+}
+@media only screen and (min-width: 800px) {
+  .Profile-Main {
+    width: 60%;
+  }
+}
+

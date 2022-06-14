@@ -1,0 +1,24 @@
+.Logo-Container {
+  display: grid;
+  place-items: center;
+  width: 3rem;
+  margin: 0;
+}
+
+.Logo-Regular {
+  position: relative;
+  width: 75%;
+  grid-area: 1/1;
+  z-index:2;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.Splash {
+  position: relative;
+  width: 75%;
+  grid-area: 1/1;
+  z-index: 1;
+  margin-top: 0;
+  
+}

@@ -1,0 +1,80 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --bg-primary-blue: #3c54d3;
+  --bg-secondary-white: #fff;
+  --bg-cta-green: #09cf8d;
+  --bg-cta-green-light: rgb(16, 218, 150);
+  --bg-grey: #8c96cb;
+  --bg-scrollbar-thumb: #3c55d380;
+  --text-white: #fff;
+  --text-dark: #2f2f2f;
+  --text-dark-dimmed: #818181;
+  --text-dark-dimmed-extra: #81818180;
+  --errors: #ff696e;
+
+  --header-height: 10rem;
+  --nav-height: 4rem;
+  --container-padding-x: 1rem;
+
+  --sign-height: 3rem;
+  --char-height: 1rem;
+
+  --box-shadow: 0 0 5px var(--text-dark-dimmed-extra);
+
+  width: 100%;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-column-evenly {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 0 var(--container-padding-x);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+.Link:hover {
+  opacity: 0.9;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}

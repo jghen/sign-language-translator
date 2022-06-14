@@ -1,0 +1,72 @@
+.Translate-Form-Wrapper {
+  background-color: var(--bg-secondary-white);
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  height: 3em;
+}
+@media only screen and (min-width: 800px) {
+  .Translate-Form-Wrapper {
+    width: 60%;
+  }
+}
+
+.Keyboard {
+  width: 1.2em;
+  height: 1.2em;
+  margin: 0 0.2em 0 0.4em;
+  margin-bottom: 0.21em;
+}
+
+.Line {
+  color: var(--text-dark);
+  margin: 0;
+  padding: 0;
+  font-size: 1.8em;
+  height: fit-content;
+  margin-bottom: 0.21em;
+}
+.Translate-Form {
+  flex-grow: 1;
+}
+.Translate-Input {
+  color: var(--text-dark);
+  background-color: transparent;
+  outline: none;
+  border: none;
+  flex-grow: 1;
+  height: 100%;
+  font-size: 1.2em;
+}
+.Translate-Input::placeholder {
+  color: var(--text-dark-dimmed-extra);
+}
+
+.cta-btn {
+  background-color: var(--bg-cta-green);
+  color: var(--text-white);
+  border-radius: 50%;
+  outline: none;
+  border: 1px solid transparent;
+  transition: 0.1s ease-in-out;
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
+}
+.cta-btn:hover,
+.cta-btn:focus,
+.cta-btn:active {
+  outline: var(--bg-cta-green-light);
+  background-color: var(--bg-cta-green-light);
+  border: 1px solid var(--bg-cta-green-light);
+  cursor: pointer;
+}
+
+.cta-btn:active {
+  transform: scale(0.9);
+}
+
+.arrow-forward {
+  padding: 0;
+  font-size: 2.2rem;
+}

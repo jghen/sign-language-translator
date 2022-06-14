@@ -1,0 +1,56 @@
+.Profile-Input-Wrapper {
+  background-color: var(--bg-secondary-white);
+  width: 95%;
+  border-radius: 25px;
+  margin: 0.5rem 0;
+  -moz-box-shadow: var(--box-shadow);
+  -webkit-box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow);
+}
+@media only screen and (min-width:800px) {
+  .Profile-Input-Wrapper {
+    width: 60%;
+  }
+}
+
+.Profile-Input-Inner-Wrapper {
+  width: 100%;
+}
+
+.char {
+  text-align: start;
+  padding: 0.4rem 1rem;
+  width: 98%;
+  margin: 0;
+  font-size: 1.2em;
+  color: var(--text-dark-dimmed);
+}
+
+.cta-btn {
+  background-color: var(--bg-cta-green);
+  color: var(--text-white);
+  border-radius: 50%;
+  outline: none;
+  border: 1px solid transparent;
+  transition: 0.1s ease-in-out;
+  height: 2rem;
+  width: 2rem;
+  margin-right: 5px;
+}
+.cta-btn:hover,
+.cta-btn:focus,
+.cta-btn:active {
+  outline: var(--bg-cta-green-light);
+  background-color: var(--bg-cta-green-light);
+  border: 1px solid var(--bg-cta-green-light);
+  cursor: pointer;
+}
+
+.cta-btn:active {
+  transform: scale(0.9);
+}
+
+.clear {
+  padding: 0;
+  font-size: 1.8rem;
+}

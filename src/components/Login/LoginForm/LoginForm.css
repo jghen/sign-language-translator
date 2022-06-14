@@ -1,0 +1,91 @@
+.Login-Form-Wrapper {
+  background-color: var(--bg-secondary-white);
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  height: 3em;
+  margin-bottom: 1rem;
+}
+
+.Keyboard {
+  width: 1.2em;
+  height: 1.2em;
+  margin: 0 .2em 0 .4em;
+  margin-bottom: 0.21em;
+}
+
+.Line {
+  color: var(--text-dark);
+  margin: 0;
+  padding: 0;
+  font-size: 1.8em;
+  height: fit-content;
+  margin-bottom: 0.21em;
+}
+.Login-Form {
+  flex-grow: 1;
+}
+.Login-Input {
+  color: var(--text-dark);
+  background-color: transparent;
+  outline: none;
+  border: none;
+  flex-grow: 1;
+  height: 100%;
+  font-size: 1.2em;
+}
+.Login-Input::placeholder {
+  color: var(--text-dark-dimmed-extra);
+}
+
+.cta-btn {
+  background-color: var(--bg-cta-green);
+  color: var(--text-white);
+  border-radius: 50%;
+  outline: none;
+  border: 1px solid transparent;
+  transition: 0.1s ease-in-out;
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
+}
+.cta-btn:hover,
+.cta-btn:focus,
+.cta-btn:active {
+  outline: var(--bg-cta-green-light);
+  background-color: var(--bg-cta-green-light);
+  border: 1px solid var(--bg-cta-green-light);
+  cursor: pointer;
+}
+
+.cta-btn:active {
+  transform: scale(0.9);
+}
+
+.arrow-forward {
+  padding: 0;
+  font-size: 2.2rem;
+}
+.Logging-In, .Errors-Wrapper{
+  position: absolute;
+  margin: 0;
+  padding: 1rem;
+  bottom: 0;
+  width: 100%;
+  font-size: 120%;
+  color: var(--text-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.Logging-In {
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 100%;
+}
+.Errors-Wrapper {
+  z-index: 5;
+  border: 1px solid red;
+  background-color: var(--errors);
+  color: var(--text-white);
+}

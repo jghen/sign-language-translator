@@ -1,3 +1,8 @@
+#Sign Language Translator
+
+this is a small app that lets you translate letters into english sign language.
+It will store latest translations in your profile. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

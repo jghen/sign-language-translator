@@ -1,0 +1,22 @@
+.Scroll {
+  background: transparent;
+  width: calc(100% + var(--container-padding-x) * 2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scrollbar-color: transparent transparent;
+  -ms-overflow-style: none;
+}
+
+.Scroll::-webkit-scrollbar {
+  width: .4em;
+}
+
+.Scroll::-webkit-scrollbar-thumb {
+  background-color: var(--bg-scrollbar-thumb);
+  border-radius: 10%;                  
+}

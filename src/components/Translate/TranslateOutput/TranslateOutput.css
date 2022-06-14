@@ -1,0 +1,87 @@
+.Translate-Output,
+.Translate-Paragraph-Wrapper,
+.Signs-Wrapper {
+  
+  width: 100%;
+}
+
+.Translate-Output {
+  height: 100%;
+  margin: 3rem auto;
+  border-radius: 15px;
+  -moz-box-shadow: var(--box-shadow);
+  -webkit-box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+@media only screen and (min-width: 800px) {
+  .Translate-Output {
+    width: 60%;
+  }
+}
+
+.Words-Wrapper {
+  min-height: fit-content;
+  padding: .2rem;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.No-Translations {
+  color: var(--text-dark-dimmed);
+}
+
+.Word-Wrapper {
+  display: flex;
+  width: fit-content;
+  margin: 0;
+  padding: 0;
+}
+
+.Sign-Wrapper {
+  width: var(--sign-height);
+  height: calc(var(--sign-height) + var(--char-height) + .5rem);
+  padding: .2rem 0;
+  display: grid;
+  place-items: center;
+  gap: 0;
+  animation: animateSign .2s ease-in-out .1s 5 alternate both;
+  transition: ease-in-out;
+}
+
+@keyframes animateSign {
+  from {transform: translate3d(0);}
+  to {transform: translate3d(.1rem, .1rem, .2rem);}
+}
+.Sign {
+  width: var(--sign-height);
+  height: var(--sign-height);
+  grid-area: 1/1;
+  min-height: 0;
+  min-width: 0;
+}
+.Char {
+  width: var(--char-height);
+  height: var(--char-height);
+  padding: 0;
+  margin: 0;
+  font-size: var(--char-height);
+  grid-area: 2/1;
+}
+
+.Translate-Paragraph-Wrapper {
+  height: var(--sign-height);
+  background-color: var(--bg-cta-green);
+}
+
+.Translate-Paragraph {
+  margin: 0;
+  padding: 0 0.8rem;
+  background-color: var(--text-white);
+  border-radius: 25px;
+  font-size: 1rem;
+}

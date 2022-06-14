@@ -1,0 +1,36 @@
+.Translate-Page {
+  min-height: calc(100vh - var(--nav-height));
+  min-width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-primary-blue);
+  color: var(--text-white);
+}
+
+.Translate-Nav, .Translate-Main {
+  background-color: var(--bg-primary-blue);
+  color: var(--text-white);
+}
+
+.Translate-Header {
+  width: 100%;
+  height: var(--header-height);
+  color: var(--text-white);
+  
+  background-color: var(--bg-primary-blue);
+  color: var(--text-white);
+}
+.Translate-h4-header {
+  margin: 0;
+  font-weight: 400;
+}
+
+.Translate-Main {
+  width: calc(100% + var(--container-padding-x) * 2);
+  height: calc(100vh - 4rem - var(--header-height) - 4rem);
+  flex-direction: column;
+  background-color: var(--bg-secondary-white);
+  color: var(--text-dark);
+}
+
+

@@ -1,0 +1,33 @@
+.Login-Logo-Container {
+  display: grid;
+  place-items: center;
+  width: 50%;
+  margin: 0;
+  align-self: center;
+}
+
+.Login-Logo-Hello {
+  position: relative;
+  width: 75%;
+  grid-area: 1/1;
+  z-index:2;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+}
+
+.Login-Splash {
+  position: relative;
+  width: 75%;
+  grid-area: 1/1;
+  z-index: 1;
+  margin-top: 3rem;
+  
+}
+
+@media only screen and (min-width: 600px) {
+  .Login-Logo-Container {
+    width: 30%;
+    margin: 0;
+  }
+}
+
