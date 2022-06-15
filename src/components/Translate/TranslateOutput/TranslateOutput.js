@@ -4,13 +4,12 @@ import AppContainer from "../../../hoc/AppContainer";
 import Scroll from "../../../hoc/Scroll";
 
 const TranslateOutput = ({ inputArray }) => {
-
   const charOrSpace = (char) => {
     const alphabet = new RegExp(/[a-z]/);
-    if (alphabet.test(char)) {
-      return char;
+    if (!alphabet.test(char)) {
+      return "space";
     }
-    return "space";
+    return char;
   };
 
   const insertImg = (char, i) => {

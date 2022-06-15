@@ -1,8 +1,7 @@
 body, html{
   margin: 0;
   width: 100%;
-  min-width: 100vw;
-  min-height: 100vh;
+  height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
