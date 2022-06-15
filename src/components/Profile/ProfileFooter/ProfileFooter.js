@@ -47,7 +47,7 @@ const ProfileFooter = ({ clearHistory }) => {
             <button
               onClick={handleClearHistoryClick}
               className="cta-btn clear-history-btn"
-              id="clearHistory"
+              id="clearHistoryBtn"
             >
               Clear history
             </button>
