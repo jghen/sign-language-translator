@@ -49,8 +49,7 @@ const ProfileFooter = ({ clearHistory }) => {
               className="cta-btn clear-history-btn"
               id="clearHistory"
             >
-              {" "}
-              Clear history{" "}
+              Clear history
             </button>
 
             <div className="Link-Profile-Wrapper flex">

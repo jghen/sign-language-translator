@@ -23,14 +23,8 @@
   font-size: 1rem;
   margin: 0;
   border-radius: 25px;
-  background-color: var(--bg-cta-green-light);
 }
-.clear-history-btn:active,
-.clear-history-btn:focus,
-.clear-history-btn:hover {
-  background-color: var(--bg-cta-green);
-  cursor: pointer;
-}
+
 .Log-Out-btn {
   width: 100%;
   margin: 0;

@@ -29,6 +29,7 @@
   padding: .2rem;
   display: flex;
   flex-wrap: wrap;
+  align-self: flex-start;
   
 }
 .No-Translations {
