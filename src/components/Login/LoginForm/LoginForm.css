@@ -42,10 +42,10 @@
 .Errors-Wrapper {
   position: absolute;
   margin: 0;
-  padding: 1rem;
+  padding: 0;
   top: 0;
-  bottom: 0;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   font-size: 120%;
   color: var(--text-white);
   display: flex;
