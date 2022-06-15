@@ -43,7 +43,8 @@
   position: absolute;
   margin: 0;
   padding: 1rem;
-  height: 100%;
+  top: 0;
+  bottom: 0;
   width: 100%;
   font-size: 120%;
   color: var(--text-white);
